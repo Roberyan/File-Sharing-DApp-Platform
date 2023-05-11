@@ -1,0 +1,127 @@
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContainer {
+    font-size: 24px;
+
+    width: 50vw;
+    height: 50vh;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.modalContainer {
+    display: inline-block;
+    text-align: center;
+}
+.title {
+    display: inline-block;
+    text-align: center;
+}
+
+.titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 1px;
+    cursor: pointer;
+}
+
+.modalContainer .body {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.modalContainer .footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContainer .footer button {
+    width: 100px;
+    height: 35px;
+    margin: 10px;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#cancelBtn {
+    background-color: crimson;
+}
+#grantBtn {
+    background-color: rgb(8, 192, 42);
+}
+#forbidBtn {
+    background-color: cornflowerblue;
+}
+
+.address {
+    display: block;
+    margin: auto;
+    height: 30px;
+    width: 330px;
+    text-align: center;
+}
+
+input[type="text"]:focus {
+    background-color: lightblue;
+}
+
+.modalContainer table {
+    display: flex;
+    flex-direction: column;
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+.modalContainer thead p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    background-color: black;
+    color: white;
+}
+
+.modalContainer td {
+    width: 100vw;
+    font-size: 18px;
+    border: 1px solid black;
+    padding: 8px 0px;
+    text-align: center;
+}
+
+.modalContainer tr:nth-child(even) {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+#click-to-choose:hover {
+    color: red;
+    cursor: pointer;
+}
+

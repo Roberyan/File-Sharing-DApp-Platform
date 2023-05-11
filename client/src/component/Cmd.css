@@ -1,0 +1,80 @@
+.cmdBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cmdContainer {
+    font-size: 24px;
+
+    width: 60vw;
+    height: 40vh;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.cmdContainer {
+    display: inline-block;
+    text-align: center;
+}
+
+
+.cmdContainer button {
+    width: 100px;
+    height: 35px;
+    margin: 10px;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#cancelBtn {
+    background-color: crimson;
+}
+#updateBtn {
+    background-color: rgb(134, 8, 192);
+    width: 150px;
+    height: 35px;
+}
+
+.cmdContainer table {
+    display: flex;
+    flex-direction: column;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+.cmdContainer thead p {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}
+
+.cmdContainer td,th {
+    width: 100vw;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+#rank-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#address {
+    font-family: monospace;
+}
+
+

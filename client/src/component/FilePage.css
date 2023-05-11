@@ -1,0 +1,97 @@
+
+.filePageContainer{
+    width: 80vw;
+    margin-left: 10vw;
+    height: 75vh;
+    border-radius: 12px;
+    background-color: rgb(245, 244, 244);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.filePageContainer {
+    display: inline-block;
+    text-align: center;
+}
+
+.img-details {
+    margin-right: 20px;
+}
+
+.info-img{
+    width: 250px;
+    height: 350px;
+    margin: 10px;
+}
+
+.text-details {
+    display: flex;
+    justify-content: center;
+}
+
+.fp-table {
+    margin-top: 0px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    max-width: 800px;
+    font-size: 20px;
+}
+
+.fp-tr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+.fp-td {
+    padding: 0 10px;
+    flex-basis: 25%;
+}
+
+.info-title {
+    font-weight: bold;
+}
+
+.info-value {
+    color: #666;
+}
+
+
+.functionField {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fp-download,
+.fp-backBtn {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.fp-download:hover,
+.fp-backBtn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.fp-download:active,
+.fp-backBtn:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
+
